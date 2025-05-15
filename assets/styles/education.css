@@ -1,0 +1,47 @@
+main {
+    background-image: linear-gradient(to right, rgb(70, 0, 29), rgb(12, 12, 12));
+    color: white;
+}
+
+.educationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 290px;
+    height: 230px;
+    border: 1px solid white;
+    transition: .2s ease;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: .2s ease;
+}
+
+.title h1 {
+    font-size: 20px;
+}
+
+.title span {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.desc {
+    padding: 10px 0 0 0;
+}
+
+.desc p {
+    font-size: 18px;
+}

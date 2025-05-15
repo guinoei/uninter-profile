@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+textarea {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navContents,
+.footerContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.navTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.navTitle h1 {
+    font-size: 22px;
+}
+
+.navTitle p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.buttons a {
+    padding: 5px 15px;
+}
+
+.buttons a:hover {
+    color: purple;
+}
+
+.border {
+    border-left: 1px solid black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media (max-width: 425px) {    
+    .navTitle h1, .navTitle p, .buttons a {
+        font-size: 16px;
+        text-align: center;
+    }
+}

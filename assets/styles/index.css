@@ -1,0 +1,72 @@
+main {
+    background-image: linear-gradient(to right, rgb(70, 0, 29), rgb(12, 12, 12));
+}
+
+.hobbiesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+}
+
+.hobbie {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 50px;
+    width: 1440px;
+}
+
+.design {
+    background-image: url("../img/designbg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.production {
+    background-image: url("../img/musicbg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.gaming {
+    background-image: url("../img/gamingbg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.hobbieTitle h1 {
+    font-size: 28px;
+    transition: .2s ease;
+}
+
+.hobbieTitle h1:hover {
+    transform: scale(1.04);
+    transition: .4s ease;
+}
+
+.hobbieDesc p {
+    font-size: 18px;
+}
+
+@media (max-width: 1440px) {
+    .hobbie {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .hobbiesContainer {
+        padding: 100px 10px;
+        gap: 100px;
+    }
+
+    .hobbie {
+        padding: 15px;
+    }
+}

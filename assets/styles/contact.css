@@ -1,0 +1,50 @@
+main {
+    background-image: linear-gradient(to right, rgb(70, 0, 29), rgb(12, 12, 12));
+    color: white;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    opacity: .8;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
