@@ -1,6 +1,7 @@
 main {
     background-image: linear-gradient(to right, rgb(70, 0, 29), rgb(12, 12, 12));
     color: white;
+    height: auto;
 }
 
 .educationContainer {
